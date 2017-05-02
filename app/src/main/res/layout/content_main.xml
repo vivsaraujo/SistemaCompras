@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.vivian.sistemacompras.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+            <TextView
+                android:id="@+id/tx_titulo"
+                android:textAlignment="center"
+                android:textSize="@dimen/text_size"
+                android:textColor="@color/colorTexto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="TextView" />
+
+            <CheckBox
+                android:id="@+id/chk_arroz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="CheckBox"
+                android:textSize="@dimen/text_size"
+                android:textColor="@color/colorTexto"/>
+
+            <CheckBox
+                android:id="@+id/chk_leite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="CheckBox"
+                android:textSize="@dimen/text_size"
+                android:textColor="@color/colorTexto"/>
+
+            <CheckBox
+                android:id="@+id/chk_carne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="CheckBox"
+                android:textSize="@dimen/text_size"
+                android:textColor="@color/colorTexto"/>
+
+            <CheckBox
+                android:id="@+id/chk_feijao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="CheckBox"
+                android:textSize="@dimen/text_size"
+                android:textColor="@color/colorTexto"/>
+
+            <CheckBox
+                android:id="@+id/chk_refrigerante"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="CheckBox"
+                android:textSize="@dimen/text_size"
+                android:textColor="@color/colorTexto"/>
+
+            <Button
+                android:id="@+id/bt_total"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Button"
+                android:background="@color/colorBotao"
+                android:textColor="@color/colorTexto"/>
+
+</LinearLayout>
